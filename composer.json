@@ -1,0 +1,13 @@
+{
+    "name": "philippetraverse/twigscratch",
+    "description": "codepen for twig",
+    "require": {
+        "twig/twig": "^1.18"
+    },
+    "authors": [
+        {
+            "name": "Philippe Traverse",
+            "email": "ptraverse@sycle.net"
+        }
+    ]
+}

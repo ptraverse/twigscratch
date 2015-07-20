@@ -1,0 +1,2 @@
+git clone this repo..composer install/update..
+grunt? php -S?
