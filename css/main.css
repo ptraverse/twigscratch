@@ -106,12 +106,13 @@ label {
 textarea {
     border: 1px solid grey;
     min-height: 300px;
+    width:100%;
 }
 
 div.rendered {
     border: 1px dashed grey;
     min-height: 300px;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 
 

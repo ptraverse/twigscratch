@@ -12,7 +12,6 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -32,44 +31,34 @@
             </div>
 
             <div class="row col-md-12 inputs">
-                <div class="php col-md-3">
+                <div class="php col-md-6">
                     <label for="phpInput">PHP</label>
                     <textarea id="phpInput">&lt;?php
 $foo = 'hello, world!';
 ?&gt;</textarea>
                 </div>
 
-                <div class="twig col-md-3">
+                <div class="twig col-md-6">
                     <label for="twigInput">Twig</label>
-                    <textarea id="twigInput">{{ foo|title }}</textarea>
-                </div>
-
-                <div class="js col-md-3">
-                    <label for="jsInput">JS</label>
-                    <textarea id="jsInput">TODO
-JS Code Goes Here</textarea>
-                </div>
-
-                <div class="css col-md-3">
-                    <label for="cssInput">CSS</label>
-                    <textarea id="cssInput">TODO
-CSS Code Goes Here</textarea>
+                    <textarea id="twigInput">&lt;div&gt;{{ foo|title }}&lt;/div&gt;</textarea>
                 </div>
 
             </div>
             <div class="row output">
-                <div class="rendered col-md-12">
-Hello, World!
+                <label for="rendered">Output</label>
+                <div class="rendered col-md-12" id="response">
+&lt;div&gt;Hello, World!&lt;/div&gt;
                 </div>
             </div>
             <div class="row debug">
-                <div class="errors col-md-12"></div>
+                <div class="errors col-md-12" id="error"></div>
             </div>
         </div>
 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
