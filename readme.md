@@ -11,4 +11,8 @@ half height row:
 half height row:
 	result
 
-<img src="/public/img/codepen.jpg">
+CodePen doesnt have Twig For Some reason:
+<img src="/img/codepen.jpg" />
+
+The final result should look something like:
+<img src="/img/demo.jpg" />
