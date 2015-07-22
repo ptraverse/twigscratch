@@ -3,7 +3,7 @@
 Clone of codepen.io, except using twig templating engine
 
 Final result looks something like:
-<img src="/img/demo2.jpg" />
+<img src="/img/demo2.JPG">
 
 ## Build
 Because this uses `shell_exec`, you have to host it on your own machine if you want to use it:
