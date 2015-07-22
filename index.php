@@ -33,22 +33,29 @@
             <div class="row col-md-12 inputs">
                 <div class="php col-md-6">
                     <label for="phpInput">PHP</label>
-                    <textarea id="phpInput">&lt;?php
+                    <textarea id="phpInput">
 $foo = 'hello, world!';
-?&gt;</textarea>
+$bar = 1+2;
+
+/* CAUTION: Uses shell_exec, so we can do evil things!! */
+$baz = `pwd`;</textarea>
                 </div>
 
                 <div class="twig col-md-6">
                     <label for="twigInput">Twig</label>
-                    <textarea id="twigInput">&lt;div&gt;{{ foo|title }}&lt;/div&gt;</textarea>
+                    <textarea id="twigInput">
+<h3>{{ foo|title }}</h3>
+<hr>
+<input type="number" value={{ bar }}>
+<hr>
+<pre>{{ baz }}</pre></textarea>
                 </div>
 
             </div>
             <div class="row output">
                 <label for="rendered">Output</label>
                 <div class="rendered col-md-12" id="response">
-&lt;div&gt;Hello, World!&lt;/div&gt;
-                </div>
+&lt;div&gt;Hello, World!&lt;/div&gt;</div>
             </div>
             <div class="row debug">
                 <div class="errors col-md-12" id="error"></div>

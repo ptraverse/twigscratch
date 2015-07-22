@@ -2,8 +2,7 @@
     "name": "philippetraverse/twigscratch",
     "description": "codepen for twig",
     "require": {
-        "twig/twig": "^1.18",
-        "symfony/symfony": "~2.7"
+        "twig/twig": "^1.18"
     },
     "authors": [
         {
