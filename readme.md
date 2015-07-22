@@ -6,7 +6,7 @@ Final result looks something like:
 <img src="/img/demo2.JPG">
 
 ## Build
-Because this uses `shell_exec`, you have to host it on your own machine if you want to use it:
+Because this uses `eval`, you have to host it on your own machine if you wish to use it:
 ```
 git clone https://github.com/ptraverse/twigscratch.git && cd twigscratch
 mkdir tmp && chmod 777 tmp
@@ -24,7 +24,7 @@ I'm sure this probably exists already out there somewhere but I couldn't find it
 ##TODO
 * Syntax-checking on both
 * Add Gruntfile to do server start and auto-file-delete on tmp/ folder
-* Make it "safe" ( shell_exec )
+* Make it "safe" ( find a better solution than `eval`s )
 * Upload File buttons on both
 
 (these will realistically probably never happen)

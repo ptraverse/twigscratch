@@ -37,7 +37,7 @@
 $foo = 'hello, world!';
 $bar = 1+2;
 
-/* CAUTION: Uses shell_exec, so we can do evil things!! */
+/* CAUTION: This code will get eval'd, so we can do evil things!! */
 $baz = `pwd`;</textarea>
                 </div>
 
