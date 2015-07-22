@@ -1,5 +1,5 @@
 {
-    "name": "philippetraverse/twigscratch",
+    "name": "ptraverse/twigscratch",
     "description": "codepen.io (scratchpad) for twig",
     "require": {
         "twig/twig": "^1.18"
