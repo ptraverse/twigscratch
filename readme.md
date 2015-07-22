@@ -20,3 +20,10 @@ CodePen doesnt have Twig For Some reason:
 <img src="/img/codepen.jpg" />
 
 I'm sure this probably exists already out there somewhere but I couldn't find it on google so I just made it myself.
+
+#TODO:
+*Syntax-checking on both
+*Add Gruntfile to do server start and auto-file-delete on tmp/ folder
+*Make it "safe" ( shell_exec )
+*Upload File buttons on both
+(these will realistically probably never happen)
