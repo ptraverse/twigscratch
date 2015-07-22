@@ -8,7 +8,8 @@ Final result looks something like:
 ## Build
 Because this uses `shell_exec`, you have to host it on your own machine if you want to use it:
 ```
-git clone https://github.com/ptraverse/twigscratch.git
+git clone https://github.com/ptraverse/twigscratch.git && cd twigscratch
+mkdir tmp && chmod 777 tmp
 php composer.phar update
 php -S 0.0.0.0:1234
 ```
