@@ -7,16 +7,11 @@ Final result looks something like:
 
 ## Build
 Because this uses `shell_exec`, you have to host it on your own machine if you want to use it:
-<code>
-git clone https://github.com/ptraverse/twigscratch.git
-</code>
-<code>
-php composer.phar update
-</code>
-<code>
-php -S 0.0.0.0:1234
-</code>
-Now point your browser to the PHP dev server living at 0.0.0.0:1234 and you should find the same as below.
+	git clone https://github.com/ptraverse/twigscratch.git
+	php composer.phar update
+	php -S 0.0.0.0:1234
+
+Now point your browser to the PHP dev server living at 0.0.0.0:1234 and you should find the same as above screenshot.
 
 CodePen doesnt have Twig For Some reason:
 <img src="/img/codepen.jpg" />
